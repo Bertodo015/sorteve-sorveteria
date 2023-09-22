@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+}
+
+#header {
+    padding: 15px 0;
+    background-image: linear-gradient(to right, #00d2f7, #eb4fd6);
+}
+
+#header h1 {
+    text-align: center;
+    color: white;
+    font-family: 'slogan';
+    text-shadow: -4px 5px 3px rgb(212, 87, 87);
+    font-size: 500%;
+}
+
+img {
+    height: 350px;
+    width: 600px;
+}
+
+#main {
+    display: flex;
+}
+
+#menu {
+    width: 15%;
+    background-color: #F19C52;
+    padding: 40px 20px;
+}
+
+#menu span {
+    font-family: 'regular';
+    font-size: 200%;
+}
+
+#menu ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#menu li {
+    font-family: 'regular';
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+#menu li:hover {
+    color: #00d2f7;
+}
+
+#content {
+    padding: 30px 20px;
+    width: 85%;
+    background-color: #f7f7f7;
+}
+
+#content-tittle {
+    font-family: 'bold';
+    text-align: center;
+}
+
+.content-card {
+    border-radius: 49px;
+    background: #f7f7f7;
+    box-shadow: 9px 9px 50px #c300ff,
+        -9px -9px 50px #05d9ff;
+    display: flex;
+    width: 80%;
+    margin: 60px auto;
+    padding: 40px;
+}
+
+.content-card span {
+    font-family: 'text';
+    width: 50%;
+    padding: 10px;
+    font-size: 115%;
+}
+
+.content-card img {
+    width: 50%;
+    padding: 10px;
+}
+
+#footer {
+    background-color: #14488d;
+    padding: 10px 20px;
+}
+
+#footer span{
+    color: white;
+    font-family: 'regular';
+}

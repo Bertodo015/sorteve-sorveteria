@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'slogan';
+    src: url(../fonts/Satisfy-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'regular';
+    src: url(../fonts/Courgette-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'text';
+    src: url(../fonts/Nunito-Medium.ttf);
+}
